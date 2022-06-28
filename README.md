@@ -6,7 +6,7 @@
 
 <br/>
 
-[![Deployed to Heroku](https://www.herokucdn.com/deploy/button.png)](https://beautiful-mount-rainier-03359.herokuapp.com/)
+[![Deployed to Heroku](https://www.herokucdn.com/deploy/button.png)](https://pristine-dry-tortugas-61806.herokuapp.com/)
 
 <br/>
 
@@ -49,7 +49,9 @@ Si salió bien, debería tener un **BUILD SUCCESS** verde.
 mvn exec:java -Dexec.mainClass="edu.escuelaing.arsw.labs.boardws.AppStarter"
 ```
 
-Puede conectarse a la aplicación desplegada en [Heroku](https://beautiful-mount-rainier-03359.herokuapp.com/)
+Puede conectarse a la aplicación desplegada en [Heroku](https://pristine-dry-tortugas-61806.herokuapp.com/)
+
+Aunque las imágenes muestran la dirección de la versión anterior del proyecto, el funcionamiento es el mismo y se puede comprobar con la nueva versión desplegada en Heroku. (Puede comparar los links para verificar cuál es la nueva versión y cuál la antigua)
 
 Se conecta un primer usuario:
 
