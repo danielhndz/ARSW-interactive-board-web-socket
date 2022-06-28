@@ -1,4 +1,4 @@
-# :hammer_and_wrench: Interactive board Web Socket
+# :hammer_and_wrench: Interactive board con web socket
 
 ## Arquitecturas de Software (ARSW)
 
@@ -46,7 +46,7 @@ Si salió bien, debería tener un **BUILD SUCCESS** verde.
 ### Using
 
 ```
-mvn exec:java -Dexec.mainClass="edu.escuelaing.arsw.labs.board.WebSiteController"
+mvn exec:java -Dexec.mainClass="edu.escuelaing.arsw.labs.boardws.AppStarter"
 ```
 
 Puede conectarse a la aplicación desplegada en [Heroku](https://beautiful-mount-rainier-03359.herokuapp.com/)
@@ -97,7 +97,7 @@ Se limpia también para el primer usuario:
 
 ### Class Diagram
 
-Se sigue una arquitectura similar a la versión anterior, pero ahora con un `endpoint` en [BoardEndPoint](/src/main/java/edu/escuelaing/arsw/labs/boardws/endpoints/BoardEndPoint.java), quién es el controlador de casi todas las peticiones HTTP y del servicio del tablero. [Board](/src/main/java/edu/escuelaing/arsw/labs/board/model/Board.java) modela el tablero junto con [Point](/src/main/java/edu/escuelaing/arsw/labs/board/model/Point.java) y [Color](/src/main/java/edu/escuelaing/arsw/labs/board/model/Color.java).
+Se sigue una arquitectura similar a la versión anterior, pero ahora con el uso de la tecnología web socket, con un `endpoint` en [BoardEndPoint](/src/main/java/edu/escuelaing/arsw/labs/boardws/endpoints/BoardEndPoint.java), quién es el controlador de casi todas las peticiones HTTP y del servicio del tablero. [Board](/src/main/java/edu/escuelaing/arsw/labs/boardws/model/Board.java) modela el tablero junto con [Point](/src/main/java/edu/escuelaing/arsw/labs/boardws/model/Point.java) y [Color](/src/main/java/edu/escuelaing/arsw/labs/boardws/model/Color.java).
 
 ![](../media/class_diagram1.png?raw=true)
 
